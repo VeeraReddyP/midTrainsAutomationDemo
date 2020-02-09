@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="E2E automation Test Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="init.TestListener" />
+    </listeners>
+
+    <test name="midTrans Valid Payment Tests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="e2eTests.PillowPurchaseTests" />
+        </classes>
+    </test>
+
+    <test name="midTrans Invalid Payment Tests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="e2eTests.PillowInvalidPurchaseTests" />
+        </classes>
+    </test>
+
+</suite>
