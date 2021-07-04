@@ -30,7 +30,7 @@
  
  6) Verifying transaction success and failure message
  
- # Stesps to clone the project
+ # Steps to clone the project
  
  1) open the terminal in local desktop 
  
@@ -38,7 +38,7 @@
  
  3) Project will be downloaded into respective folder.
  
- # Stesps to download the project from github
+ # Steps to download the project from github
  
  1) open the url in browser : https://github.com/VeeraReddyP/webAutomationDemo
  
